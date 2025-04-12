@@ -1,0 +1,32 @@
+print("Tuple and it's operation...")
+Tuple1=[1,2,3,4,5]
+print(Tuple1)
+Tuple2=["Apple","Banana","Cherry"]
+print(Tuple2)
+Tuple3=[1,"hello",3.14,True]
+print(Tuple3)
+print("lenght:",len(Tuple1))
+print("Positive Indexing")
+print(Tuple1[0])
+print(Tuple1[1])
+print(Tuple1[2])
+print(Tuple1[3])
+print(Tuple1[4])
+print("Negative Indexing")
+print(Tuple1[-1])
+print(Tuple1[-2])
+print(Tuple1[-3])
+print(Tuple1[-4])
+print(Tuple1[-5])
+print("Slicing")
+print(Tuple1[1:3])
+print(Tuple1[2:])
+print(Tuple1[:3])
+print(Tuple1[3])
+print(Tuple1[-4:-1])
+
+Tuple1 = Tuple1 + (9)
+print(Tuple1)
+
+Tuple4 =(50, 10, 60, 70, 50)
+print(Tuple4.count(50))
